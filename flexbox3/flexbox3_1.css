@@ -1,0 +1,42 @@
+.container {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lila {
+    display: flex;
+    background-color: purple;
+    height: 50px;
+    justify-content: flex-start;
+    padding: 0 10px;
+    gap: 10px; 
+}
+
+.kek {
+    width: 50px;
+    background-color: cyan;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+    gap: 10px; 
+}
+
+.zold {
+    background-color: green;
+    width: 25%;
+}
+
+.sarga {
+    background-color: yellow;
+    width: 75%;
+}
+
+.szurke {
+    background-color: gray;
+    height: 50px;
+}
